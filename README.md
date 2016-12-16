@@ -31,6 +31,6 @@ npm run build
 命令仅仅只是打包和本机系统相同的应用安装包, 仅在Linux系统下测试过  
 更多打包命令详见[electron-packager](https://recordnotfound.com/electron-packager-electron-userland-69033)  
 
-**至此应用已经在桌面点击运行**
+**至此应用已经可以在桌面点击运行**
 
 #### 应用加密(未完成)

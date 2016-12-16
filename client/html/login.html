@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登陆页面</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="panel panel-primary loginPanel">
+        <div class="panel-heading">请输入用户昵称:</div>
+        <div class="panel-body">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="uname">
+                    <span class="input-group-btn">
+        <button class="btn btn-default" id="loginBtn" type="button">确认</button>
+      </span>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            (小Tip:昵称应该在七个字以内呦)
+        </div>
+    </div>
+</body>
+<!-- Insert this line above script imports  -->
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+<!-- normal script imports etc  -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/login.js"></script>
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+
+</html>

@@ -1,0 +1,156 @@
+ html {
+     font-size: 0;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ #wrap {
+     position: relative;
+     margin: 0 auto;
+     width: 400px;
+     height: 500px;
+     overflow: hidden;
+ }
+ 
+ #message li {
+     font-size: 18px;
+     padding: 5px 10px;
+ }
+ 
+ #message li:nth-child(odd) {
+     background: #eee;
+ }
+ 
+ #message {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ form {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 40px;
+ }
+ 
+ #m {
+     width: 200px;
+     line-height: 30px;
+     font-size: 15px;
+     padding: 0 10px;
+ }
+ 
+ #s {
+     width: 120px;
+     line-height: 30px;
+     font-size: 16px;
+     height: 34px;
+     background: #332ca2;
+ }
+ 
+ .loginPanel {
+     position: relative;
+     margin: 200px auto;
+     width: 300px;
+ }
+ 
+ .userBox {
+     width: 100%;
+     height: 30px;
+     margin: 0 0 0 20px;
+     padding: 0;
+ }
+ 
+ .userID {
+     display: none;
+ }
+ 
+ .u_input {
+     position: fixed;
+     bottom: 20px;
+     padding-top:10px;
+     border-top: 1px solid #0099CC
+ }
+ .u_input>.no_right{
+     margin-right: 0;
+     padding-right: 0;
+ }
+ .u_input>.no_left{
+     margin-left: 0;
+     padding-left: 0;
+ }
+ 
+ #messageBox {
+     width: 100%;
+     height: 530px;
+     overflow: auto;
+     padding: 20px 5px 5px;
+     position: relative;
+ }
+ 
+ #messageBox::-webkit-scrollbar {
+     display: none
+ }
+ 
+ .add_tip {
+     margin: 0;
+     padding:0;
+     font-size: 12px;
+     coloe: #999;
+     text-align: center;
+ }
+ 
+ 
+ .message_box_l,
+ .message_box_r {
+     position: relative;
+     width: 200px;
+     margin:5px 0;
+ }
+ 
+ .message_box_r {
+     left: 190px;
+ }
+ 
+ .message_box_r>p,
+ .message_box_l>p {
+     font-size: 13px;
+     margin-bottom: 2px;
+ }
+ 
+ .message_box_l>p {
+     padding-left:10px;
+     text-align: left;
+ }
+ 
+ .message_box_r>p {
+     padding-right: 10px;
+     text-align: right;
+ }
+ 
+ .message_box_l>div,
+ .message_box_r>div {
+     padding: 5px 10px;
+     font-size: 14px;
+     border-radius: 5px;
+     white-space: normal;
+     word-break: break-all;
+ }
+ .message_box_r>div{
+     background:#FFFF66; 
+ }
+  .message_box_l>div{
+     background:#66cc00; 
+ }
+ 
+ .message_box_l>div {
+     margin-left: 20px;
+ }
+ 
+ .message_box_r>div {
+     margin-right: 20px;
+ }
+ .private_msg>div{
+     background: #CC99CC
+ }

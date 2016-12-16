@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>聊天窗口</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="http://127.0.0.1:3000/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <div id="messageBox">
+    </div>
+    <div class="u_input">
+        <div class="col-xs-8 no_right">
+            <div class="input-group">
+                <span class="input-group-addon" id="sender">me</span>
+                <input type="hidden" id="sender_uid" />
+                <input type="text" class="form-control" id="sendMsg">
+                <span class="input-group-btn">
+        <button class="btn btn-default" id="sendBtn" type="button">发送给</button>
+      </span>
+            </div>
+        </div>
+        <div class="col-xs-4 no_left">
+            <select class="form-control" id="uList">
+            <option value="1">所有人</option>
+        </select>
+        </div>
+    </div>
+</body>
+<!-- Insert this line above script imports  -->
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+<!-- normal script imports etc  -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/sendMess.js"></script>
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+
+</html>

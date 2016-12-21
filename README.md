@@ -8,17 +8,21 @@ Electron打包的socket即时通讯应用
 *执行*
 
 ```sh
-cd server  
-npm install   安装需要的依赖
-npm start     启动服务器
+cd server
+# 安装需要的依赖
+npm install  
+# 启动服务器
+npm start     
 ```
 #### 客户端
 *执行*
 
 ```sh
-cd client  
-npm install   安装需要的依赖
-npm start     启动应用(可以多开几个终端进行测试)
+cd client 
+# 安装需要的依赖
+npm install  
+# 启动应用(可以多开几个终端进行测试)
+npm start     
 ```
 
 #### 应用打包
